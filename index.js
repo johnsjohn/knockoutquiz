@@ -13,7 +13,6 @@ app.get('/data',(req,res)=>{
     let rawdata = fs.readFile('rounds.json',(err,data)=>{
         if(err) throw err;
         let quizData= JSON.parse(data);
-        console.log(quizData);
         res.json(quizData);
         
     });
