@@ -1,0 +1,268 @@
+{
+    "CurrentTeamIndex": 0,
+    "Teams": [
+        {
+            "TeamName": "Team A",
+            "Points": 0
+        },
+        {
+            "TeamName": "Team B",
+            "Points": 0
+        },
+        {
+            "TeamName": "Team C",
+            "Points": 0
+        },
+        {
+            "TeamName": "Team D",
+            "Points": 0
+        },
+        {
+            "TeamName": "Team E",
+            "Points": 0
+        },
+        {
+            "TeamName": "Team F",
+            "Points": 0
+        },
+        {
+            "TeamName": "Audience",
+            "Points": 0
+        },
+        {
+            "TeamName": "Quiz Master",
+            "Points": 0
+        }
+    ],
+    "CurrentRoundIndex": 0,
+    "Rounds": [
+        {
+            "RoundName": "Kickstarter I",
+            "CurrentQuestionIndex": 0,
+            "Questions": [
+                { "Question": "Ready For The First Question?" },
+                {
+                    "Question": "In June 2018, 300 Indian soldiers crossed into Doklam area of Bhutan and formed a human wall to prevent chinese army from constructing a road that would have given chinese access to indian territory. What was this operation named?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "K R Narayanan became 10th  Indian President in 1997 elections after defeating an eminent person who was supported by Shiv Sena. Identify the person."
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Who is nicknamed as Dhing Express?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Which state was formed as the 25th state of India ?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "\"The life of a single human being is worth a million times more than all the property of the richest man on earth.\" Whose words are these?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "In India, diamond crossing of railway lines is found only at one railway station, where's that?"
+                },
+                { "Question": "Ready For The Next Round?" }
+            ]
+        },
+        {
+            "RoundName": "Kickstarter II",
+            "CurrentQuestionIndex": 0,
+            "Questions": [
+                { "Question": "Ready For The First Question?" },
+                {
+                    "Question": "Which is the first Indian festival that was celebrated in UN headquarters?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "How many stars are present in the American Flag?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "What image is featured in the back side of new 100 Rupee note?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "\"Good friend for Jesus sake forbeare, To dig the dust enclosed here. Blessed be the man that spares these stones, And cursed be he that moves my bones.\" Whose grave has this curse?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Who wrote the book 'The Great Indian Novel' ?"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Indian Parliament House was designed by two architects. One was Edwin Lutyens, who was the other?"
+                },
+                { "Question": "Ready For The Next Round?" }
+            ]
+        },
+        {
+            "RoundName": "Are you watching closely?",
+            "CurrentQuestionIndex": 0,
+            "Questions": [
+                { "Question": "Ready For The First Question?" },
+                {
+                    "Question": "Identify this monument",
+                    "QuestionFile": "img/image-1.jpg"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "This view is from an iconic structure. Identify the structure",
+                    "QuestionFile": "img/image-2.jpg"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Identify the broomstick",
+                    "QuestionFile": "img/image-3.jpg"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "This 'legendary' celebration was against which bowler.",
+                    "QuestionFile": "img/image-4.jpg"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "Identify this historic war moment",
+                    "QuestionFile": "img/image-5.jpg"
+                },
+                { "Question": "Ready For The Next Question?" },
+
+                {
+                    "Question": "How about judging a book by its cover?",
+                    "QuestionFile": "img/image-6.jpg"
+                },
+                { "Question": "Ready For The Next Round?" }
+            ]
+        },
+        {
+            "RoundName": "Sound 'Proof'",
+            "CurrentQuestionIndex": 0,
+            "Questions": [
+                { "Question": "Ready For The First Question?" },
+                { "Question": "Identify the song", "QuestionFile": "mp3/audio-1.mp3" },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "Identify the show that has this opening theme.", "QuestionFile": "mp3/audio-2.mp3" },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "Identify this Indian musical instrument", "QuestionFile": "mp3/audio-3.mp3" },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "Identify the speaker", "QuestionFile": "mp3/audio-4.mp3" },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "Identify this Indian language", "QuestionFile": "mp3/audio-5.mp3" },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "To which movie does this soundtrack belong?", "QuestionFile": "mp3/audio-6.mp3" },
+                { "Question": "Ready For The Next Round?" }
+            ]
+        },
+        {
+            "RoundName": "Fast & Furious",
+            "CurrentQuestionIndex": 0,
+            "Questions": [
+                { "Question": "Ready For The First Question?" },
+
+
+                {
+                    "Question": "In Indian currency notes"
+                },
+                {
+                    "Question": "In Indian currency notes, the note value is written in 17 languages"
+                },
+                {
+                    "Question": "In Indian currency notes, the note value is written in 17 languages, out of which only one is a foreign language"
+                },
+                {
+                    "Question": "In Indian currency notes, the note value is written in 17 languages, out of which only one is a foreign language. Which is that language?"
+                },
+                { "Question": "Ready For The Next Round?" },
+
+
+
+                {
+                    "Question": "This person was born on August 4, 1961,"
+                },
+                { "Question": "This person was born on August 4, 1961, and authored the book 'Dreams from my father'." },
+                { "Question": "This person was born on August 4, 1961, and authored the book 'Dreams from my father'. He was born to a white mother and a black father." },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "This country has abundant natural resources like oil, coal, natural gas, gold, copper etc." },
+                { "Question": "This country has abundant natural resources like oil, coal, natural gas, gold, copper etc. China, US, Singapore, Japan, India are major trading partners of this country." },
+                { "Question": "This country has abundant natural resources like oil, coal, natural gas, gold, copper etc. China, US, Singapore, Japan, India are major trading partners of this country. It's capital is the second most popular urban area in the world." },
+                { "Question": "This country has abundant natural resources like oil, coal, natural gas, gold, copper etc. China, US, Singapore, Japan, India are major trading partners of this country. It's capital is the second most popular urban area in the world. It's the world largest island country with more than 17,000 islands." },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "This sport originated in Victorian England," },
+                { "Question": "This sport originated in Victorian England, it is governed by a world wide association founded in 1926" },
+                { "Question": "This sport originated in Victorian England, it is governed by a world wide association founded in 1926. The game can be played by two players or four players." },
+                { "Question": "This sport originated in Victorian England, it is governed by a world wide association founded in 1926. The game can be played by two players or four players. This is an Olympic sport since 1988. " },
+                { "Question": "This sport originated in Victorian England, it is governed by a world wide association founded in 1926. The game can be played by two players or four players. This is an Olympic sport since 1988. From 1988 to 2004, in Olympics, this game had categories as Men's singles, Men's doubles, Women's singles and Women's doubles." },
+                { "Question": "This sport originated in Victorian England, it is governed by a world wide association founded in 1926. The game can be played by two players or four players. This is an Olympic sport since 1988. From 1988 to 2004, in Olympics, this game had categories as Men's singles, Men's doubles, Women's singles and Women's doubles. From 2008, a team event has been played instead of doubles. This game is also known as ping-pong." },
+                { "Question": "Ready For The Next Question?" },
+
+
+                { "Question": "This is a war memorial to 70,000 soldiers who died in first world war." },
+                { "Question": "This is a war memorial to 70,000 soldiers who died in first world war. The memorial was designed by Edwin Lutyens." },
+                { "Question": "This is a war memorial to 70,000 soldiers who died in first world war. The memorial was designed by Edwin Lutyens. Followed by Bangladesh liberation war, another marble structure was built beneath this monument in memory of soldiers who lost their life during this war." },
+                { "Question": "This is a war memorial to 70,000 soldiers who died in first world war. The memorial was designed by Edwin Lutyens. Followed by Bangladesh liberation war, another marble structure was built beneath this monument in memory of soldiers who lost their life during this war. This is India's one of the largest war memorials." },
+                { "Question": "Ready For The Next Question?" },
+
+
+                { "Question": "This person was born in 1940, in San Fransisco to but his parents were from Hong Kong." },
+                { "Question": "This person was born in 1940, in San Fransisco to but his parents were from Hong Kong. He was introduced to film industry by his father as a child actor." },
+                { "Question": "This person was born in 1940, in San Fransisco to but his parents were from Hong Kong. He was introduced to film industry by his father as a child actor. He died on July 20, 1972. \"Enter the dragon', 'Fist of Fury', 'The big boss' are his famous films." },
+                { "Question": "Ready For The Next Question?" },
+
+
+
+                { "Question": "This international stadium has a capacity of around 60,000 people." },
+                { "Question": "This international stadium has a capacity of around 60,000 people. The construction was completed in the year 1996." },
+                { "Question": "This international stadium has a capacity of around 60,000 people. The construction was completed in the year 1996. This is a multi purpose stadium where cricket and football can be played." },
+                { "Question": "This international stadium has a capacity of around 60,000 people. The construction was completed in the year 1996. This is a multi purpose stadium where cricket and football can be played. This holds the privilege of having 5th loudest crowd in the world during a final match of football in 2016." },
+                { "Question": "This international stadium has a capacity of around 60,000 people. The construction was completed in the year 1996. This is a multi purpose stadium where cricket and football can be played. This holds the privilege of having 5th loudest crowd in the world during a final match of football in 2016. The stadium is in India." },
+                { "Question": "Ready For The Next Question?" },
+
+                { "Question": "This is one of the major rivers which flows through China, India and Bangladesh." },
+                { "Question": "This is one of the major rivers which flows through China, India and Bangladesh. It's about 2899.9 km long" },
+                { "Question": "This is one of the major rivers which flows through China, India and Bangladesh. It's about 2899.9 km long and is originated from the manasarovar lake region," },
+                { "Question": "This is one of the major rivers which flows through China, India and Bangladesh. It's about 2899.9 km long and is originated from the manasarovar lake region, near mount Kailash in Himalayas." },
+                { "Question": "Ready For The Next Question?" },
+
+
+
+                { "Question": "This famous actor started his career as a child artist in 1960. He received Padma Shri in 1990 and Padma Bhushan in 2014." },
+                { "Question": "This famous actor started his career as a child artist in 1960. He received Padma Shri in 1990 and Padma Bhushan in 2014. His breakthrough as a lead actor came in the 1975 drama Apoorva Ragangal." },
+                { "Question": "This famous actor started his career as a child artist in 1960. He received Padma Shri in 1990 and Padma Bhushan in 2014. His breakthrough as a lead actor came in the 1975 drama Apoorva Ragangal. He was born in a Tamil iyengar family in 1954." },
+                { "Question": "Ready For The Next Question?" },
+
+
+                { "Question": "This game was discovered in India in 6th century." },
+                { "Question": "This game was discovered in India in 6th century. The earliest evidence of this game evolution in India is the depiction of boards on the caves of Ellora." },
+                { "Question": "This game was discovered in India in 6th century. The earliest evidence of this game evolution in India is the depiction of boards on the caves of Ellora. Two, three or four people can play this at a time without partnerships. The special areas of the game board is colored as Yellow, Red, Green and Blue" },
+                { "Question": "Ready For The Next Round?" }
+
+            ]
+        }
+
+    ]
+
+
+}

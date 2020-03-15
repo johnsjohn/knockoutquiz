@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="bg-warning">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="display-3" id="pointTable">
+                    <table class="table table-borderless text-center">
+                        <thead>
+                            <tr data-bind="foreach: model.Teams">
+                                <th data-bind="text: TeamName"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-bind="foreach: model.Teams">
+                                <td data-bind="text: Points"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <br>
+                <a data-bind="click: prevRound" name="Correct Answer" id="cAns" class="btn btn-danger" href="#"
+                    role="button">&lt;</a>
+            </div>
+            <div class="col-lg-8">
+                <span class="display-3 text-info"
+                    data-bind="text: model.Rounds()[model.CurrentRoundIndex()].RoundName()"></span>
+            </div>
+            <div class="col-lg-2">
+                <br>
+                <a data-bind="click: nextRound" name="Correct Answer" id="cAns" class="btn btn-success" href="#"
+                    role="button">&gt;</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <br>
+                <a data-bind="click: prevTeam" name="Correct Answer" id="cAns" class="btn btn-danger" href="#"
+                    role="button">&lt;</a>
+            </div>
+            <div class="col-lg-8">
+                <span class="display-3 text-success"
+                    data-bind="text: model.Teams()[model.CurrentTeamIndex()].TeamName()"></span>
+            </div>
+            <div class="col-lg-2">
+                <br>
+                <a data-bind="click: nextTeam" name="Correct Answer" id="cAns" class="btn btn-success" href="#"
+                    role="button">&gt;</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 float-right">
+                <br>
+                <a data-bind="click: prevQuestion" name="Correct Answer" id="cAns" class="btn btn-danger" href="#"
+                    role="button">&lt;</a>
+            </div>
+            <div class="col-lg-8">
+            <!-- <div class="col-lg-8">
+                <h1 class="display-3" data-bind="text: model.Questions()[model.CurrentQuestionIndex().Question()]"></h1>
+            </div> -->
+            <!-- ko if: (model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile&&model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile().indexOf(".jpg") > -1 )-->
+            <!-- <div class="col-lg-8"> -->
+                <img  data-bind="attr:{src:model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile()}"
+                    class="img-fluid" alt="">
+            <!-- </div> -->
+            <!-- /ko -->
+            <!-- ko if: (model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile&&model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile().indexOf(".mp4") > -1) -->
+            <div class="col-lg-8">
+                <video width="320" height="240" controls>
+                    <source data-bind="attr:{src:model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile()}"
+                        type="video/mp4">
+                </video>
+            </div>
+            <!-- /ko -->
+            <!-- ko if: (model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile&&model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile().indexOf(".mp3") > -1) -->
+            <div class="col-lg-8">
+                <audio width="320" height="240" controls>
+                    <source data-bind="attr:{src:model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].QuestionFile()}"
+                        type="audio/mpeg">
+                </audio>
+            </div>
+            <!-- /ko -->
+                <br>
+                <h1 class="display-4 font-weight-bolder" data-bind="text:model.Rounds()[model.CurrentRoundIndex()].Questions()[model.Rounds()[model.CurrentRoundIndex()].CurrentQuestionIndex()].Question()"></h1>
+            </div>
+            <div class="col-lg-2 float-left">
+                <br>
+                <a data-bind="click: nextQuestion" name="Pass" id="cAns" class="btn btn-success" href="#"
+                    role="button">&gt;</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- <input id="clickMe" class="btn btn-success" type="button" value="Start Timer" onclick="timer();" /> -->
+                <a data-bind="click: timer" name="Start Timer" id="cTimer" class="btn btn-success" href="#"
+                    role="button">Start Timer</a>
+            </div>
+            <div class="col-lg-12">
+                <div class="display-3" id="timer"></div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="row">
+            <div class="col-lg-4">
+                <a data-bind="click: incMark" name="Correct Answer" id="cAns" class="btn btn-success" href="#"
+                    role="button">Increment Points</a>
+            </div>
+            <div class="col-lg-4">
+                <a data-bind="click: decMark" name="Wrong Answer" id="cAns" class="btn btn-danger" href="#"
+                    role="button">Reduce Points</a>
+            </div>
+            <div class="col-lg-4">
+                <a data-bind="click: passQuestion" name="Pass" id="cAns" class="btn btn-dark" href="#"
+                    role="button">Pass</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/knockout-min.js"></script>
+    <script src="js/knockout.mapping-latest.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
